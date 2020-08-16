@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&&family=Poppins&family=Red+Rose&display=swap");
+
+:root {
+  --font1: "Lemonada", cursive;
+  --font2: "Red Rose", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font1);
+}
+
+.lemonada {
+  font-family: "Lemonada", cursive;
+}
+
+.red_rose {
+  font-family: "Red Rose", cursive;
+}
+
+.flex_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  padding-top: 2%;
+  letter-spacing: 38px;
+  font-size: 10px !important;
+}
+
+.bgc-1 {
+  /* background-color: #344444; */
+  /* background: linear-gradient(to top right ,#fc00ff , #00dbde ); */
+  /* background: linear-gradient(to bottom right, #2078c5, #00dbde); */
+  background-image: url(../img/bg7.jpg) !important;
+  background-size: cover;
+}
+
+.fa {
+  font-size: large;
+}
+
+.icons .flex_box .fa {
+  font-size: 30px;
+}
+
+.cntnt {
+  background-size: cover;
+  background-image: url(../img/bg7.jpg) !important;
+}
+
+.left_sd {
+  height: 90vh;
+}
+
+.right_sd {
+  height: 90vh;
+  padding: 5% !important;
+}
+
+.img_resp {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.container_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.txt_rsd {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.txt_lsd {
+  margin: 1rem 3rem;
+}
+
+.parallax-container {
+  height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container_img {
+    width: auto;
+    height: inherit;
+    padding: 3%;
+  }
+
+  .img_resp {
+    width: inherit;
+    height: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 5px;
+  }
+  .left_sd {
+    height: 80vh;
+    margin-top: 2%;
+  }
+  .right_sd {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+  nav .brand-logo {
+    left: 38% !important;
+  }
+
+  .txt_rsd {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .txt_lsd {
+    margin: 1rem 0;
+  }
+}

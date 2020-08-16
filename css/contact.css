@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&&family=Poppins&family=Red+Rose&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lemonada", cursive;
+}
+body {
+  background: linear-gradient(to top left, cyan, #205dd7) no-repeat;
+}
+.cbgc-2 {
+  background: #070707 no-repeat;
+}
+.cbgc-3 {
+  background: #f5f5f5 no-repeat;
+}
+.fbtn {
+  background: linear-gradient(to bottom right, #e144e3, #004ade) no-repeat;
+}
+label{
+  color: rgba(0, 0, 0, 0.862) !important;
+}
+form{
+  height: 100% !important;
+  width: auto !important;
+}
+form .div{
+  height: 100% !important;
+  width: auto !important;
+}
+footer{
+  position: relative;
+  bottom: 0;
+  width: inherit !important;
+}
+footer::after{
+  content: '';
+  position: relative;
+  bottom: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* .cbgc-1 {
+  background: linear-gradient(to bottom right, #00ff2fa0, #00dade80);
+} */
+/* background: linear-gradient(to bottom right, #00ff2f76, #00dade80);
+background: linear-gradient(to bottom right, #fb00ff76, #00dade80);
+background: linear-gradient(to bottom right, #fb00ff76, #00dade80); */

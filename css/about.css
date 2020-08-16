@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&&family=Poppins&family=Red+Rose&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lemonada", cursive;
+}
+
+body{
+  background: linear-gradient(to bottom right,#ff3300 ,#09622e );
+  background: #1f3f59;
+}
+
+.bgc-1{
+    background: black;
+    background: linear-gradient(to bottom right ,#fc00ff , #00dbde );
+}
+
+.bgc-2{
+  background:#fff;
+}
