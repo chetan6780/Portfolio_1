@@ -5,26 +5,35 @@
   padding: 0;
   font-family: "Lemonada", cursive;
 }
-.cntnt{
-  background: url('../img/g4.jpg');
+.cntnt {
+  background: url("../img/g4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.cntnt2{
-  background: url('../img/g4.jpg');
+.cntnt2 {
+  background: url("../img/g4.jpg");
   background-size: 100%;
 }
 
-.bgc-1{
-    background: black;
-    background: linear-gradient(to top left, cyan, #205dd7) no-repeat;
+.bgc-1 {
+  background: black;
+  background: linear-gradient(to top left, cyan, #205dd7) no-repeat;
 }
 
-.bgc-2{
-  background-color: #000 ;
+.bgc-2 {
+  background-color: #000;
 }
-.cntnr{
+.cntnr {
   width: 85% !important;
   height: auto !important;
+}
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
