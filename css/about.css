@@ -6,12 +6,20 @@
   font-family: "Lemonada", cursive;
 }
 
+
 body {
-  background: linear-gradient(to bottom right, #795548, #9e9e9e );
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* background: linear-gradient(to bottom right, #ec03f8, #ec03f87d ); */
+  background: #e2e2e2 ;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 .bgc-1 {
-  
   background: #3e2723 ;
 }
 
@@ -19,12 +27,8 @@ body {
   background: #fff;
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+.img-des{
+  border: 0.1px solid #765244;
+  border-radius: 20px;
 }
 
-main {
-  flex: 1 0 auto;
-}
