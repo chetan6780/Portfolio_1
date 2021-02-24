@@ -6,29 +6,26 @@
   font-family: "Lemonada", cursive;
 }
 
-
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  /* background: linear-gradient(to bottom right, #ec03f8, #ec03f87d ); */
-  background: #e2e2e2 ;
+  background-image: url(../img/bg1.png);
 }
 
 main {
   flex: 1 0 auto;
 }
-
 .bgc-1 {
-  background: #3e2723 ;
+  /* background: #3e2723; */
+  background-size: cover;
+  background-image: url(../img/bg1.png);
 }
-
 .bgc-2 {
-  background: #fff;
+  background: #e2e2e2;
 }
 
-.img-des{
-  border: 0.1px solid #765244;
+.img-des {
+  border: 0.1px solid;
   border-radius: 20px;
 }
-

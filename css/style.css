@@ -39,10 +39,7 @@
 }
 
 .bgc-1 {
-  /* background-color: #344444; */
-  /* background: linear-gradient(to top right ,#fc00ff , #00dbde ); */
-  /* background: linear-gradient(to bottom right, #2078c5, #00dbde); */
-  background-image: url(../img/bg7.jpg) !important;
+  background-image: url(../img/bg1.png) !important;
   background-size: cover;
 }
 
@@ -56,7 +53,7 @@
 
 .cntnt {
   background-size: cover;
-  background-image: url(../img/bg7.jpg) !important;
+  background-image: url(../img/bg1.png) !important;
 }
 
 .left_sd {

@@ -6,7 +6,9 @@
   font-family: "Lemonada", cursive;
 }
 body {
-  background: linear-gradient(to top left, rgba(0, 255, 255, 0.758), #2970ff97) no-repeat;
+  background-size: cover;
+  background: #313131  no-repeat;
+  background-image: url(../img/g1.jpg);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -15,16 +17,20 @@ main {
   flex: 1 0 auto;
 }
 .cbgc-2 {
+  background-size: cover;
   background: #313131  no-repeat;
+  background-image: url(../img/g1.jpg);
+
 }
 .cbgc-3 {
   background: #f5f5f5 no-repeat;
 }
 .fbtn {
-  background: linear-gradient(to bottom right, #4863d1, #1477c3) no-repeat;
+  background-size: cover;
+  background-image: url(../img/bg7.jpg) ;
 }
 label {
-  color: rgba(0, 0, 0, 0.862) !important;
+  color: #000 !important;
 }
 form {
   height: 100% !important;

@@ -6,12 +6,12 @@
   font-family: "Lemonada", cursive;
 }
 .cntnt {
-  background: url("../img/g4.jpg");
+  background: linear-gradient(to top left, #212121, #2e2e2e) no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .cntnt2 {
-  background: url("../img/g4.jpg");
+  background: linear-gradient(to top left, #212121, #2e2e2e) no-repeat;
   background-size: 100%;
 }
 
