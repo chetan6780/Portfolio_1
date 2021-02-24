@@ -8,7 +8,7 @@
 body {
   background-size: cover;
   background: #313131  no-repeat;
-  background-image: url(../img/g1.jpg);
+  background-image: url(../img/g2.jpg);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -19,7 +19,7 @@ main {
 .cbgc-2 {
   background-size: cover;
   background: #313131  no-repeat;
-  background-image: url(../img/g1.jpg);
+  background-image: url(../img/g2.jpg);
 
 }
 .cbgc-3 {
